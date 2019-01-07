@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SignMode>Off</SignMode>
+    <DebugDeployment>True</DebugDeployment>
+    <TestCertificate>C:\Users\Administrator.NL-20170901AYIC\Desktop\北京嘉恒中自图像技术公司.pfx</TestCertificate>
+    <ProductionCertificate>C:\Users\Administrator.NL-20170901AYIC\Desktop\北京嘉恒中自图像技术公司.pfx</ProductionCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <DebugDeployment>False</DebugDeployment>
+  </PropertyGroup>
+</Project>
