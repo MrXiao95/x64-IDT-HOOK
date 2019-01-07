@@ -7,6 +7,7 @@
 	3.IDTENTRY中的成员说明:OffsetHigh(地址的高32位), OffsetMiddle(地址低32位的高16位), OffsetLow(地址的低16位)
 	4.sidt获取当前CPU核心的IDTR,多核处理代码已经在下面了
 	5.IDT属于PG保护范围，若想安全使用，自行准备PassPG
+	6.编译环境:Win10 10.0.15063 SDK WDK10.0 VS2015
 	源码仅供参考，如有问题，给我留言
 */
 
